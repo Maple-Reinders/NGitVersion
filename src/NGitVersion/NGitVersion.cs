@@ -12,8 +12,8 @@ namespace NGitVersion
         private const string MODEL_VAR = @"m";
 
         // directories are relative to output project directory ${ProjectDir}\bin
-        private static string TEMPLATE_DIR = Path.Combine("..", "..", "Templates");
-        private static string OUTPUT_DIR = Path.Combine("..","..","Generated");
+        private static string TEMPLATE_DIR = Path.Combine("..", "..", "..", "NGitVersion", "src", "NGitVersion", "Templates");
+        private static string OUTPUT_DIR = Path.Combine("..", "Properties");
         private const string MAIN_TEMPLATE_NAME = @"MainTemplate";
 
         public static void Main(string[] args)
